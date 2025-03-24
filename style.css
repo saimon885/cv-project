@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: rgb(141, 141, 141);
+}
+.container{
+    width: 1000px;
+    background-color: rgb(242, 255, 255);
+    margin: 0 auto;
+    padding: 20px
+
+}
+.image{
+    width: 100px;
+    height: 120px;
+    float: left;
+    border: solid white 5px;
+    border-radius:50px ;
+}
+.inform{
+    float: left;
+    padding: 30px;
+    color: aqua;
+}
+.contact{
+    padding: 30px;
+    float: right;
+}
+.contact a{
+    text-decoration: none;
+    color: rgb(20, 94, 94);
+    font-weight: bold;
+    cursor: pointer;
+}
+.contact a:hover{
+    color: tomato;
+    transition: 0.5s ease ;
+}
+h1,h2,h3,h4,h5,h6{
+    color: rgb(0, 128, 128);
+}
+.clear{
+    clear: both;
+}
+hr{
+    margin: 30px auto;
+    border: 3px solid black;
+    border-bottom: none;
+    width: 100%;
+}
+.contant{
+    margin-bottom: 20px;
+}
+.left-div{
+    width: 30%;
+    float: left;
+}
+.right-div{
+    width: 70%;
+    float: right;
+    color: teal;
+}
+.main-hr{
+    width: 100%;
+    margin: 20px auto;
+    border: 1px solid black;
+    border-bottom: none;
+}
+.lefts{
+    width: 45%;
+    float: left;
+    padding-right: 30px;
+}
+.right{
+    width: 45%;
+    float: right;
+}
+.bootom{
+    width: 900px;
+    height: 60px;
+    background-color: black;
+    text-align: center;
+    padding: 30px;
+    margin: 0 auto;
+}
+.bootom a{
+    text-decoration: none;
+    padding: 20px;
+    color: white;
+    font-size: 20px;
+}
+.bootom p{
+    color: white;
+    margin-top: 20px;
+    font-size: 20px;
+}
+.bootom a:hover{
+    color: tomato;
+    transition: 0.5s ease-in;
+}
